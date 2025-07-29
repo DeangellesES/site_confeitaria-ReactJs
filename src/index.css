@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    transition: all .2 linear;
+}
+
+/* CABECALHO SUPERIOR */
+.icone_cabecalho {
+    color: rgb(235, 29, 125);
+}
+
+/* RODAPE */
+/* CAIXA UM */
+.icone_caixa__um {
+    background-color: rgb(235, 29, 125);
+    padding: .5rem;
+    font-size: 1.9rem;
+    border-radius: 50%;
+    color: #fff;
+}
+
+/* CAIXA DOIS */
+.icone_caixa__dois {
+    font-size: 1.8rem;
+    color: rgb(235, 29, 125);
+}
+
+/* CAIXA QUATRO */
+.icone_caixa__quatro {
+    font-size: 1.9rem;
+    background-color: rgb(235, 29, 125);
+    border-radius: 50%;
+    padding: .5rem
+}
