@@ -11,7 +11,7 @@ const ParteBaixo = styled.footer`
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 50vh;
+    height: 70vh;
 `
 const ParteBaixoCaixa = styled.div`
     background: #00000091;
@@ -19,13 +19,14 @@ const ParteBaixoCaixa = styled.div`
     gap: 2rem;
     justify-content: center;
     color: #fff;
-    height: 50vh;
+    height: 70vh;
     flex-wrap: wrap;    
 `
 
 // CAIXA UM
 const ParteBaixoCaixaUm = styled.div`
     width: 25%;
+    padding-top: 1.5rem;
 `
 const ParteBaixoParteUmCima = styled.div`
     display: flex;
@@ -48,6 +49,7 @@ const ParteBaixoCaixaUmDentro = styled.div`
 // CAIXA DOIS
 const ParteBaixoCaixaDois = styled.div`
     width: 18%;
+    padding-top: 1.5rem;
 `
 const ParteBaixoCaixaDoisSublinhado = styled.div`
     width: 35%;
@@ -72,6 +74,7 @@ const ParteBaixoCaixaDoisDentroLink = styled.a`
 // CAIXA TRES
 const ParteBaixoCaixaTres = styled.div`
     width: 18%;
+    padding-top: 1.5rem;
 `
 const ParteBaixoCaixaTresDentro = styled.div`
 
@@ -96,6 +99,7 @@ const ParteBaixoCaixaTresDentroSpan = styled.span`
 // CAIXA QUATRO
 const ParteBaixoCaixaQuatro = styled.div`
     width: 18%;
+    padding-top: 1.5rem;
 `
 const ParteBaixoCaixaQuatroSublinhado = styled.div`
     width: 35%;
@@ -109,7 +113,7 @@ const ParteBaixoCaixaQuatroDentro = styled.div`
     display: flex;
     align-items: center;
     gap: .7rem;
-    margin: .8rem 0 0rem 0;
+    margin: .4rem 0 0rem 0;
 `
 
 // CAIXA CINCO
