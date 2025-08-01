@@ -7,7 +7,7 @@ import Cabecalho from './Components/Cabecaho'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>

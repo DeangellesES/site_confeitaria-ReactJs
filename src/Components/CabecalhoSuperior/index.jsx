@@ -7,7 +7,9 @@ const CabecalhoCima = styled.header`
     justify-content: space-between;
     padding: 1rem 3rem;
     align-items: center;
-    border: 1px solid #000;
+    border-bottom: 1px solid #000;
+    // position: fixed;
+    // min-height: 100px;
 `
 const CabecalhoCimaContato = styled.div`
     display: flex;

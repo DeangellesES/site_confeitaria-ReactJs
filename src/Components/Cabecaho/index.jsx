@@ -10,6 +10,8 @@ const CabecalhoPrincipal = styled.header`
     align-items: center;
     justify-content: space-between;
     padding: .8rem 3rem;
+    position: fixed;
+    margin-top: 3rem;
 `
 
 const ParteBaixoParteUmImagem = styled.img`
@@ -20,6 +22,9 @@ const CabecalhoPrincipalLogo = styled.div`
     align-items: center;
     gap: .8rem;
 `
+const CabecalhoPrincipalLogoTitulo = styled.h1`
+    color: #fff;
+`
 const CabecalhoPrincipalNavegacao = styled.div`
     font-size: 1.4rem;
     display: flex;
@@ -27,31 +32,35 @@ const CabecalhoPrincipalNavegacao = styled.div`
     font-weight: 600;
 `
 
+const CabecalhoPrincipalNavegacaoLink = styled.a`
+    color: #fff;
+`
+
 function Cabecalho () {
     return(
         <CabecalhoPrincipal>
             <CabecalhoPrincipalLogo>
                 <ParteBaixoParteUmImagem src={logo} alt="" />
-                <h1>Confeitaria</h1>
+                <CabecalhoPrincipalLogoTitulo>Confeitaria</CabecalhoPrincipalLogoTitulo>
             </CabecalhoPrincipalLogo>
             <CabecalhoPrincipalNavegacao>
-                <a href="">Home</a>
-                <a href="">Sobre</a>
-                <a href="">Páginas</a>
-                <a href="">Portifólio</a>
-                <a href="">Blog</a>
-                <a href="">Loja</a>
-                <a href="">Contato</a>
+                <CabecalhoPrincipalNavegacaoLink href="">Home</CabecalhoPrincipalNavegacaoLink>
+                <CabecalhoPrincipalNavegacaoLink href="">Sobre</CabecalhoPrincipalNavegacaoLink>
+                <CabecalhoPrincipalNavegacaoLink href="">Páginas</CabecalhoPrincipalNavegacaoLink>
+                <CabecalhoPrincipalNavegacaoLink href="">Portifólio</CabecalhoPrincipalNavegacaoLink>
+                <CabecalhoPrincipalNavegacaoLink href="">Blog</CabecalhoPrincipalNavegacaoLink>
+                <CabecalhoPrincipalNavegacaoLink href="">Loja</CabecalhoPrincipalNavegacaoLink>
+                <CabecalhoPrincipalNavegacaoLink href="">Contato</CabecalhoPrincipalNavegacaoLink>
 
-                <a href="">
+                <CabecalhoPrincipalNavegacaoLink href="">
                     <FaSearch />
-                </a>
-                <a href="">
+                </CabecalhoPrincipalNavegacaoLink>
+                <CabecalhoPrincipalNavegacaoLink href="">
                     <FaUser />
-                </a>
-                <a href="">
+                </CabecalhoPrincipalNavegacaoLink>
+                <CabecalhoPrincipalNavegacaoLink href="">
                     <FaCartShopping />
-                </a>
+                </CabecalhoPrincipalNavegacaoLink>
             </CabecalhoPrincipalNavegacao>
         </CabecalhoPrincipal>
     )
